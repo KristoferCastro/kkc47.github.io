@@ -1,0 +1,195 @@
+
+#projects{
+	display:block;
+	background-color:white;
+	margin: 1em 0 0 2em;
+	
+}
+
+.description-content{
+	width:60%;
+}
+
+.description-content a{
+	color: #14AFFF;
+}
+
+.project-pictures{
+	display: inline-block;
+}
+
+.gallery{
+	margin: 0 auto 0 auto;
+	display:block;
+	max-width: 300px;
+}
+
+.project header h1{
+	font-size: 34pt;
+	font-family: League Gothic;
+	color:#14AFFF;
+
+}
+
+.project:nth-child(2n) header h1{
+	color:#30647F;
+}
+
+.project header{
+	margin: 0 0 1em 0em;
+	text-align:center;
+	
+	background-color:#fff;
+	background-image: linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EDEDED 100%);
+	
+	padding:20px;
+	box-shadow:0 2px 4px rgba(0,0,0,0.3);
+}
+
+.project-role{
+	display:block;
+	text-align:center;
+	margin:-1em 0 0.5em 0;
+	color: #acacac;
+}
+
+.project{
+	/*border: 1px solid red;*/
+	margin: 0 0.5em 0.5em 0em;
+	-moz-box-shadow: 0 0 3px 3px #888;
+	-webkit-box-shadow: 0 0 3px 3px#888;
+	box-shadow: 0 0 3px 3px #888;
+	width:30%;
+	display:inline-block;
+	float:left;
+	min-height: 480px;
+	min-width:400px;
+	
+}
+
+.project-info{
+	visibility:none;
+}
+
+.project:hover{
+	cursor: pointer;
+	-moz-box-shadow: 0 0 3px 3px #3995FF;
+	-webkit-box-shadow: 0 0 3px 3px #3995FF;
+	box-shadow: 0 0 3px 3px #3995FF;
+}
+
+.project:nth-child(2n){
+	background-color:white;
+}
+
+.project:nth-child(even) header{
+	background-color:white;
+	
+}
+
+.project-info-wrapper{
+	height: auto;
+}
+
+.project-info{
+	vertical-align:top;
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 0 1em;
+}
+
+.project-info ul li{
+	vertical-align:top;
+	float:left;
+	width: 100%;
+	margin: 0 0.5em 1em 0;
+	display: inline-block;
+}
+
+.project .technology-stack ul li{
+	display:inline-block;
+	font-size:10pt;
+	opacity:0.6;
+	color:black;
+	margin: 0.25em 0.25em 0 0;
+	padding: 5px;
+	background-color: #dddddd;
+	width: auto;
+	-webkit-border-radius: .40em;
+	-moz-border-radius: .40em;
+	border-radius: .40em;
+	-moz-box-shadow: 2px 2px 5px 1px #888;
+	-webkit-box-shadow: 2px 2px 5px 1px #888;
+	box-shadow: 2px 2px 5px 1px #888;
+}
+
+.project ul{
+	text-align:center;
+}
+
+section .technology-stack{
+	display:inline-block;
+	margin: 0 0 0 0;
+	width:100%;
+}
+
+.gallery ul{
+}
+
+.gallery:hover{
+	cursor:pointer;
+}
+
+.gallery.thumbs{
+	display:block;
+	margin: 1em auto 0 auto;
+	width:100%;
+}
+
+section .technology-stack h1{
+	text-align:center;
+	margin: 0 0 1em 0;
+}
+.description-content{
+	color: #acacac;
+	font-size: 14pt;
+}
+
+.sliders{
+	display: inline-block;
+	width:100%;
+	height:100%;
+}
+
+.project-category{
+	display:inline-block;
+	margin: 0 0 1em 0;
+}
+
+.project-category header h1:first-child{
+	font-size: 34pt;
+	font-family: League Gothic;
+	color:#7F3434;
+}
+.project-category header
+{
+	margin-bottom:1em;
+}
+#projects .brief-description{
+	margin-left:0;
+}
+
+.hide{
+	display:none;
+	visiblity: hidden;
+}
+
+.year{
+	float:right;
+	margin-top: -1.5em;
+	color: #acacac;
+}

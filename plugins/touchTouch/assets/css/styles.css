@@ -1,0 +1,34 @@
+/*----------------------------
+	Thumbnails
+-----------------------------*/
+
+.thumbs{
+	position:relative;
+	margin:0.5em 0;
+	text-align:center;
+}
+
+.thumbs a{
+	font-size:10pt;
+	width:auto;
+	height:auto;
+	display:block;
+	margin: 0em;
+	padding:0.25em;
+	color: grey;
+	border-radius:4px;
+	position:relative;
+	text-decoration:none;
+	
+	background-position:center center;
+	background-repeat: no-repeat;
+	
+	background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+}
+
+.thumbs a:hover{
+	cursor:pointer;
+	color:black;
+}

@@ -1,0 +1,55 @@
+html, body{
+	width : 100%;
+	height: 100%;
+	min-width:720px;
+	font-family: calibri;
+	color: grey;
+}
+
+#page-header:first-child{
+	height: 120px;
+	background-color : black;
+	width: 100%;
+}
+
+#page-header  nav a {
+  color: grey;
+  text-decoration: none; /* no underline */
+}
+
+footer{
+	display:inline-block;
+	position:relative;
+	height:20px;
+	width: 100%;
+	background-color: black;
+}
+
+#copywrite-tag{
+	font-size: 10pt;
+	color:grey;
+	float: right;
+	margin-top: 3px;
+}
+
+.logo{
+	margin: 20px 0px 0px 40%;
+}
+
+nav ul{
+	font-family: League Gothic;
+	font-size: 24pt;
+	margin: -1em 1em 0 0;
+	color: grey; 
+	float: right;
+}
+
+nav li{
+	display:inline;
+	margin-right: 1em;
+}
+
+#page-header  nav a:hover{
+	color: #5ec1d3;
+	cursor: pointer;
+}
